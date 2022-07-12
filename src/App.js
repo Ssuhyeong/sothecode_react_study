@@ -1,9 +1,18 @@
 import React from 'react';
+import axios from 'axios';
+import { useEffect } from 'react';
 
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
+  // const callApi = async () => {
+  //   axios.get("/api").then((res) => console.log(res.data));
+  // };
+
+  // useEffect(() => {
+  //   callApi();
+  // }, []);
 
   const expenses = [
     {
@@ -27,9 +36,14 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = expense => {
+    console.log('In App.js');
+    console.log(expense);
+  };
+
   return (
     <div>
-      <NewExpense/>
+      <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses}/>
     </div>
   );
