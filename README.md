@@ -97,5 +97,8 @@
 
 
  [sothecode_Connor_4주차_현장실습 20-Jul-2022.pdf](https://github.com/Ssuhyeong/sothecode_react/files/9155815/sothecode_Connor_4._.20-Jul-2022.pdf)
+ 
+ ## 5 ~ 8주자 - Sothecode ERP Project Front 담당 Components, Views 
+ 
  [소더코드_ _Connor_현장실습_결과물 공유 및 소감문.pptx](https://github.com/Ssuhyeong/sothecode_react/files/9400023/_._Connor_._.pptx)
 
